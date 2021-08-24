@@ -111,7 +111,7 @@ div.offcanvas {
   bottom: 0;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 786px) {
   .wave {
     background-image: none;
   }
@@ -127,6 +127,10 @@ div.offcanvas {
   .navbar-dark {
     max-height: 60px;
     overflow: hidden;
+  }
+  .box {
+    width: 50%;
+    margin: auto;
   }
 }
 .button {
@@ -152,4 +156,61 @@ button:hover {
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
   color: #fff;
   transform: translateY(-7px);
+}
+.topLong {
+  top: 0;
+  width: 10rem;
+  height: 0.6rem;
+  background-color: #bd00ff;
+  position: absolute;
+}
+.topSmall {
+  position: absolute;
+  width: 2rem;
+  height: 0.6rem;
+  background-color: #bd00ff;
+  top: 0rem;
+  left: 10.5rem;
+}
+.leftTop {
+  height: 3rem;
+  width: 0.6rem;
+  position: absolute;
+  background-color: #bd00ff;
+  top: 0;
+}
+.bottomLong {
+  position: absolute;
+  background-color: #bd00ff;
+  width: 10rem;
+  height: 0.6rem;
+  bottom: 0;
+  right: 0;
+}
+.bottomSmall {
+  position: absolute;
+  background-color: #bd00ff;
+  width: 0.6rem;
+  height: 3rem;
+  right: 0;
+  left: 100%;
+  bottom: 0;
+}
+.leftBottom {
+  position: absolute;
+  background-color: #bd00ff;
+  width: 2rem;
+  height: 0.6rem;
+  right: 10.5rem;
+  bottom: 0;
+}
+.box {
+  margin-top: 1rem;
+  position: relative;
+  width: 75%;
+}
+.content_box {
+  margin-left: 0;
+  margin-left: 0;
+  padding: 0;
 }
